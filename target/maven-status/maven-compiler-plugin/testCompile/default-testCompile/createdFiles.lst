@@ -1,0 +1,15 @@
+com\webpage\LoginPage.class
+com\webpage\PaymentInformation.class
+com\TestScripts\Bookorder\bookorder.class
+com\webpage\BrowserClass.class
+com\common\util\Excel.class
+com\webpage\DemoWebShopPage.class
+com\webpage\BillingAddress.class
+com\webpage\checkoutpage.class
+com\webpage\PaymentMethods.class
+com\webpage\ShippingMethods.class
+com\webpage\ConfirmOrder.class
+com\webpage\ShippingAddress.class
+com\webpage\ShoppingCartPage.class
+com\common\util\extentReport.class
+com\webpage\CategoriesPage.class
