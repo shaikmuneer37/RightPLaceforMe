@@ -1,0 +1,24 @@
+2020-10-18 01:43:32,849 - PlanIT -INFO - entering into login page
+2020-10-18 01:43:35,146 - PlanIT -INFO - Enter username and password
+2020-10-18 01:43:41,877 - PlanIT -INFO - moving on shoping cart
+2020-10-18 01:49:25,536 - PlanIT -INFO - entering into login page
+2020-10-18 01:49:27,693 - PlanIT -INFO - Enter username and password
+2020-10-18 01:50:34,262 - PlanIT -INFO - entering into login page
+2020-10-18 01:50:37,308 - PlanIT -INFO - Enter username and password
+2020-10-18 01:50:44,455 - PlanIT -INFO - moving on shoping cart
+2020-10-18 02:00:23,725 - PlanIT -INFO - entering into login page
+2020-10-18 02:00:24,906 - PlanIT -INFO - Enter username and password
+2020-10-18 02:00:31,613 - PlanIT -INFO - moving on shoping cart
+2020-10-18 02:00:35,717 - PlanIT -INFO - previous items are removed and now cart is empty
+2020-10-18 02:01:32,509 - PlanIT -INFO -  books are updated in the cart
+2020-10-18 02:04:13,568 - PlanIT -INFO - entering into login page
+2020-10-18 02:04:15,624 - PlanIT -INFO - Enter username and password
+2020-10-18 02:04:22,552 - PlanIT -INFO - moving on shoping cart
+2020-10-18 02:04:26,431 - PlanIT -INFO - previous items are removed and now cart is empty
+2020-10-18 02:05:31,157 - PlanIT -INFO -  books are updated in the cart
+2020-10-18 02:05:31,719 - PlanIT -INFO - 
+2020-10-18 02:05:31,720 - PlanIT -INFO - validate the product has been added to your cart message is showing or Not
+2020-10-18 02:05:35,827 - PlanIT -INFO - again move on shoping cart 
+2020-10-18 02:05:36,016 - PlanIT -INFO - valiated the item amount and sub amount 
+2020-10-18 02:05:39,889 - PlanIT -INFO - select the new address from drop down
+2020-10-18 02:05:40,784 - PlanIT -INFO - entered in billing address
