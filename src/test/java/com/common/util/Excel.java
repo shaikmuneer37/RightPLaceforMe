@@ -20,13 +20,13 @@ import org.testng.annotations.Test;
 
 public class Excel{
 
-	public List<String> arrName;
-
+	public  List<String> arrName;
 
 	@Test
-	public void ReadExcel(String sheetName) throws InterruptedException, IOException{
-
-		String filePath = "C:/testdata/";
+	public void ReadExcel(String sheetName) throws IOException {
+		
+		
+		String filePath = "D:/MyDream/PlanIT/testdata/";
 		String fileName="user2.xlsx";
 		File file = new File(filePath+"\\"+fileName);
 
@@ -63,6 +63,7 @@ public class Excel{
 
 				arrName.add(str);
 			}
+			
 
 		}
 	}

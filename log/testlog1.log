@@ -1,0 +1,30 @@
+2020-10-18 03:38:50,102 [main] INFO PlanIT - entering into login page
+2020-10-18 03:38:52,125 [main] INFO PlanIT - Enter username and password
+2020-10-18 03:39:53,455 [main] INFO PlanIT - moving on shoping cart
+2020-10-18 03:40:28,148 [main] INFO PlanIT - previous items are removed and now cart is empty
+2020-10-18 03:40:37,903 [main] INFO PlanIT -  books are updated in the cart
+2020-10-18 03:40:39,741 [main] INFO PlanIT - validate the product has been added to your cart message is showing or Not
+2020-10-18 03:40:42,189 [main] INFO PlanIT - again move on shoping cart 
+2020-10-18 03:40:42,490 [main] INFO PlanIT - valiated the item amount and sub amount 
+2020-10-18 03:40:57,379 [main] INFO PlanIT - select the new address from drop down
+2020-10-18 03:40:58,891 [main] INFO PlanIT - entered in billing address
+2020-10-18 03:41:27,696 [main] INFO PlanIT -  selcting ShippingAddress down
+2020-10-18 03:41:32,197 [main] INFO PlanIT -  shipping methods page
+2020-10-18 03:41:35,671 [main] INFO PlanIT -  payment page
+2020-10-18 03:41:37,278 [main] INFO PlanIT -  payment information page 
+2020-10-18 03:41:39,515 [main] INFO PlanIT -  order confirmed
+2020-10-18 03:48:01,457 [main] INFO PlanIT - entering into login page
+2020-10-18 03:48:06,904 [main] INFO PlanIT - Enter username and password
+2020-10-18 03:48:14,203 [main] INFO PlanIT - moving on shoping cart
+2020-10-18 03:48:47,635 [main] INFO PlanIT - previous items are removed and now cart is empty
+2020-10-18 03:48:59,947 [main] INFO PlanIT -  books are updated in the cart
+2020-10-18 03:49:00,790 [main] INFO PlanIT - validate the product has been added to your cart message is showing or Not
+2020-10-18 03:49:03,729 [main] INFO PlanIT - again move on shoping cart 
+2020-10-18 03:49:04,036 [main] INFO PlanIT - valiated the item amount and sub amount 
+2020-10-18 03:49:26,270 [main] INFO PlanIT - select the new address from drop down
+2020-10-18 03:49:27,284 [main] INFO PlanIT - entered in billing address
+2020-10-18 03:49:48,099 [main] INFO PlanIT -  selcting ShippingAddress down
+2020-10-18 03:49:53,009 [main] INFO PlanIT -  shipping methods page
+2020-10-18 03:49:55,630 [main] INFO PlanIT -  payment page
+2020-10-18 03:49:57,223 [main] INFO PlanIT -  payment information page 
+2020-10-18 03:49:59,183 [main] INFO PlanIT -  order confirmed

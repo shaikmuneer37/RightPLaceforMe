@@ -27,7 +27,7 @@ import com.webpage.checkoutpage;
 
 public class bookorder  extends BrowserClass {
 
-	
+
 	@Test
 	public void testbook() throws InterruptedException, IOException{
 
@@ -36,56 +36,56 @@ public class bookorder  extends BrowserClass {
 		ps.load(fis);
 		String un =ps.getProperty("username");
 		String pwd = ps.getProperty("password");
-		
-		
-		
+
+
+
 		DemoWebShopPage page = new DemoWebShopPage();
-	  
-		  page.login();
-         logger.info("entering into login page");
-         
+
+		page.login();
+		logger.info("entering into login page");
+
 		LoginPage login = new LoginPage();
 		String s= login.validatemessage();
 		System.out.println(s);
 		String act ="Welcome, Please Sign In!";
 		Assert.assertEquals(act, s);
-		
-	    login.username(un);
-        login.passwords(pwd);
-        logger.info("Enter username and password");
+
+		login.username(un);
+		login.passwords(pwd);
+		logger.info("Enter username and password");
 		login.submittbutton();
 
 		ShoppingCartPage cart = new ShoppingCartPage();
 
 		String accountid = page.credentials();
-	
+
 		Assert.assertEquals(un, accountid);
 
 
 		page.shopingcart();
-		
+
 		logger.info("moving on shoping cart");
-     	System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 
 		CategoriesPage categori = new CategoriesPage();
 		int n= cart.selecteditemcount();
-		
-	
-			if(n >0){
-				for(int i=0;i<n;i++)
-				{
-					cart.removebutton();
-					cart.updatedcartbutton();
-				}
-				
-				}
-			else{
-				categori.booklinks();
-			   }
-logger.info("previous items are removed and now cart is empty");
-	         categori.booklinks();
 
-		
+
+		if(n >0){
+			for(int i=0;i<n;i++)
+			{
+				cart.removebutton();
+				cart.updatedcartbutton();
+			}
+
+		}
+		else{
+			categori.booklinks();
+		}
+		logger.info("previous items are removed and now cart is empty");
+		categori.booklinks();
+
+
 		categori.selectedsubcatagerybooks();
 
 		String amunt= categori.costs();
@@ -97,14 +97,14 @@ logger.info("previous items are removed and now cart is empty");
 		Double d = Double.parseDouble(amunt);
 		Double carttotal= d* Integer.parseInt(Qua);
 
-categori.bookaddtocart();
+		categori.bookaddtocart();
 
-logger.info(" books are updated in the cart");
+		logger.info(" books are updated in the cart");
 
 		String str1 =page.addtocartsucessfulmessage().toUpperCase().trim();
 		String str2=  " The product has been added to your shopping cart";
 		Assert.assertEquals( str1, str2.toUpperCase().trim());
-       
+
 		logger.info("validate the product has been added to your cart message is showing or Not");
 
 		page.shopingcart();
@@ -129,7 +129,7 @@ logger.info(" books are updated in the cart");
 		List<WebElement> ele= address.manadaterytextfield();
 
 		String sheetNames=ps.getProperty("sheetName");//"Sheet3";
-		
+
 		Excel el = new Excel();
 		el.ReadExcel( sheetNames);
 		Iterator<String> itr = el.arrName.iterator();
@@ -144,7 +144,7 @@ logger.info(" books are updated in the cart");
 			}
 		}
 
-     	address.countrylists();
+		address.countrylists();
 		Thread.sleep(100);
 		address.continuebuttons(); 
 

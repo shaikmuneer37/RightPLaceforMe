@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="158147" started-at="2020-10-17T20:33:37Z" finished-at="2020-10-17T20:36:15Z">
+  <suite name="Suite" duration-ms="173213" started-at="2020-10-17T22:17:12Z" finished-at="2020-10-17T22:20:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="158147" started-at="2020-10-17T20:33:37Z" finished-at="2020-10-17T20:36:15Z">
+    <test name="Test" duration-ms="173213" started-at="2020-10-17T22:17:12Z" finished-at="2020-10-17T22:20:05Z">
       <class name="com.TestScripts.Bookorder.bookorder">
-        <test-method status="PASS" signature="testbase(java.lang.String)[pri:0, instance:com.TestScripts.Bookorder.bookorder@10366b4]" name="testbase" duration-ms="27118" started-at="2020-10-17T20:33:38Z" finished-at="2020-10-17T20:34:05Z">
+        <test-method status="PASS" signature="testbase(java.lang.String)[pri:0, instance:com.TestScripts.Bookorder.bookorder@10366b4]" name="testbase" duration-ms="28896" started-at="2020-10-17T22:17:13Z" finished-at="2020-10-17T22:17:42Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testbase -->
-        <test-method status="PASS" signature="testbook()[pri:0, instance:com.TestScripts.Bookorder.bookorder@10366b4]" name="testbook" duration-ms="129263" started-at="2020-10-17T20:34:05Z" finished-at="2020-10-17T20:36:15Z">
+        <test-method status="PASS" signature="testbook()[pri:0, instance:com.TestScripts.Bookorder.bookorder@10366b4]" name="testbook" duration-ms="142785" started-at="2020-10-17T22:17:42Z" finished-at="2020-10-17T22:20:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testbook -->

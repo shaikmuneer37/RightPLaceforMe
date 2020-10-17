@@ -35,7 +35,7 @@ public class extentReport  extends TestListenerAdapter{
     	
 	public void onStart(ITestContext testcontext)
 	{
-	String date=new SimpleDateFormat("yyMMddhhmmss").format(new Date());
+	String date=new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
 	String rep ="Test-Report"+date+".html";
     reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"//test-output//Extent"+rep);
     extent=new ExtentReports();
@@ -72,7 +72,7 @@ public class extentReport  extends TestListenerAdapter{
 		
 	 EventFiringWebDriver efw=new EventFiringWebDriver(BrowserClass.driver);
 	 File f1 = efw.getScreenshotAs(OutputType.FILE);
-	 String date=new SimpleDateFormat("YYYY-MM-DD - hh: mm: ss").format(new Date());
+	 String date=new SimpleDateFormat("YYYY-MM-DD   hh: mm: ss").format(new Date());
 	   String path = System.getProperty("user.dir")+"//Screenshot//"+rv.getName()+date+".png";	
 	   File f2=new File(path);
 	   try {
